@@ -1,0 +1,20 @@
+--01 nov 2021--
+
+1. Functions and arrow Functions -> completed
+2. Conditional statements -> completed 
+
+3. Looping statements -> completed
+4. Strings and string methods -> completed
+
+5. Number and number methods -> tomorrow
+6. array and array methods -> tomorrow
+
+7. Utilities (Date, scope, hoisting, type conversion)
+
+// reminder : [foreach, for of, for in, map]
+
+8. DOM manipulation
+
+9. Objects and methods
+
+Async JS
