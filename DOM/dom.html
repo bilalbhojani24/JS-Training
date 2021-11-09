@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM MANIPULATION</title>
+  </head>
+  <body>
+    <h1 id="heading" class="myheading">ASCENT TECHNOLOGY</h1>
+    <button onclick="changeColor()">Click me</button>
+    <br />
+    <br />
+    <img
+      id="img-by-id"
+      src="https://www.beingoptimist.com/wp-content/uploads/2018/12/Online-Image-Compressor-To-20-Kb.png"
+      height="100px"
+    />
+  </body>
+  <script>
+    const headingById = document.getElementById("heading");
+    const headingByClass = document.getElementsByClassName("myheading");
+    const headingByTagName = document.getElementsByTagName("img");
+    const img = document.getElementById("img-by-id");
+
+    console.log(headingById);
+    // console.log(headingByClass);
+    console.log(headingByTagName);
+    img.style.height = "300px";
+  </script>
+</html>
