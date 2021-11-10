@@ -1,0 +1,38 @@
+body {
+  background-color: gainsboro;
+}
+
+h1 {
+  text-align: center;
+}
+.inputDiv {
+  background-color: white;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  margin-left: 30%;
+}
+
+.todos {
+  background-color: white;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 20px;
+  padding: 15px 25px;
+  height: 550px;
+  overflow-y: scroll;
+}
+
+.todoContainer {
+  background-color: gainsboro;
+  margin: 5px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.todoContainer button {
+  margin-left: 10px;
+}
